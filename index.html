@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ابزار ویرایش متن | طاها مظفری</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="author" content="Taha.mz" />
+    <meta name="theme-color" content="#764ba2" />
+    <meta
+      name="keywords"
+      content="Taha, Mozafari, text, text editor, طاها مظفری, ابزار ویرایش متن"
+    />
+    <meta name="description" content="ابزار ویرایش متن حرفه ای طاها مظفری." />
+  </head>
+  <body>
+    <div class="continer">
+      <header><h1>ابزار ویرایش متن طاها</h1></header>
+      <main>
+        <textarea name="" id="input" placeholder="چیزی بنویس......"></textarea>
+      </main>
+      <aside>
+        <button class="option-btn" onclick="reset()">ریست</button>
+        <button class="option-btn" onclick="letters()">تعداد حروف</button>
+        <button class="option-btn" onclick="words()">تعداد کلمات</button>
+        <button class="option-btn" onclick="ReverseLetter()">
+          برعکس کردن حروف
+        </button>
+        <button class="option-btn" onclick="ReverseWord()">
+          برعکس کردن کلمات
+        </button>
+        <button class="option-btn" onclick="copy()">کپی</button>
+      </aside>
+      <div class="output">
+        <h3 id="outtext"></h3>
+      </div>
+      <hr />
+      <footer>
+        <div class="footer-main">
+          <p>
+            &copy; <span id="footer-year">1405 </span>تمامی حقوق مادی و معنوی
+            این سایت متعلق به طاها مظفری است.
+          </p>
+          <div class="footer-images">
+            <a href=""
+              ><img
+                class="instagram footer-button"
+                src="svg/instagram.svg"
+                alt="my instagram link button."
+            /></a>
+            <a href=""
+              ><img
+                class="git-hub footer-button"
+                src="svg/github.svg"
+                alt="my GitHub link button."
+              />
+            </a>
+            <a href="https://mozafari.runflare.run/"
+              ><img
+                class="footer-button person-website"
+                src="svg/user-circle.svg"
+                alt=""
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
