@@ -1,278 +1,171 @@
-````markdown
 # 🇮🇷 Taha Persian Text Editor
 
-<div align="center">
+<p align="center">
+  <strong>A lightweight Persian text utility built with HTML, CSS and Vanilla JavaScript</strong>
+</p>
 
-### A lightweight Persian text utility built with pure HTML, CSS & JavaScript
-
-A simple, fast and browser-based toolkit for common Persian text operations.
-
-[🌐 Live Demo](https://mozafari.runflare.run)
-
-</div>
-
----
-
-## 📖 About The Project
-
-**Taha Persian Text Editor** is a lightweight, client-side web application designed specifically for working with Persian text.
-
-The project provides a collection of simple and useful text-processing tools without requiring a server, database, backend, or external API.
-
-Everything runs directly inside the user's browser.
-
-The project was built as a practical Front-End development project using:
-
-- **HTML5**
-- **CSS3**
-- **Vanilla JavaScript**
-
-The main goal is to keep the interface simple while providing useful text utilities in a Persian-friendly RTL environment.
+<p align="center">
+  <a href="https://mozafari.runflare.run">🌐 Live Demo</a> •
+  <a href="https://github.com/Tahamozafari1234">🐙 GitHub</a> •
+  <a href="https://quera.org/profile/Taha.mz">💻 Quera</a>
+</p>
 
 ---
+
+## 📖 Overview
+
+**Taha Persian Text Editor** is a lightweight, browser-based utility for common Persian text operations. The application provides a simple RTL interface where text is entered and processed directly in the browser.
+
+The project is intentionally small and dependency-free: it uses plain HTML, CSS and JavaScript and does not require a backend, database, package manager or build process.
 
 ## ✨ Features
 
-### 🔤 Character Counter
+- 🔤 **Character count** — counts characters in the entered text
+- 📝 **Word count** — counts whitespace-separated words
+- 🔄 **Reverse letters** — reverses the entered characters
+- 🔁 **Reverse words** — reverses the order of words
+- 📋 **Copy result** — copies the generated output through the browser Clipboard API
+- 🧹 **Reset** — clears the input and output
+- 🇮🇷 **RTL Persian interface**
+- 📱 Responsive CSS for smaller screens
+- 🎨 Included Lalezar Persian font
 
-Counts the number of characters entered in the text area.
+## 🛠️ Tech Stack
 
-### 📝 Word Counter
-
-Calculates the number of words contained in the entered text.
-
-### 🔄 Reverse Letters
-
-Reverses the characters of the entered text.
-
-### 🔁 Reverse Words
-
-Reverses the order of words while preserving the words themselves.
-
-### 📋 Copy Result
-
-Copies the generated result directly to the clipboard.
-
-### 🧹 Reset
-
-Clears the input and generated output with a single click.
-
----
-
-## 🎯 Why This Project?
-
-This project was created to practice and demonstrate practical Front-End development concepts including:
-
-- DOM manipulation
-- JavaScript functions
-- Event-driven interactions
-- Text processing
-- Clipboard API
-- Responsive UI design
-- RTL and Persian-language interfaces
-- Custom web fonts
-- Basic SEO metadata
-
----
-
-## 🛠️ Built With
-
-| Technology | Purpose |
+| Technology | Role |
 |---|---|
-| HTML5 | Semantic page structure |
-| CSS3 | Styling, layout and responsive design |
-| JavaScript | Text processing and interactivity |
-| Google/Custom Font Support | Persian typography |
-| Clipboard API | Copying generated results |
-
----
+| **HTML5** | Page structure and metadata |
+| **CSS3** | Layout, styling and responsive behavior |
+| **Vanilla JavaScript** | Text processing and interactions |
+| **Clipboard API** | Copying generated output |
+| **Lalezar** | Persian typography |
+| **SVG** | Social/profile interface icons |
 
 ## 🧩 Available Tools
 
-| Tool | Description |
+| Tool | Function |
 |---|---|
-| **Character Count** | Counts entered characters |
-| **Word Count** | Counts entered words |
-| **Reverse Letters** | Reverses all characters |
-| **Reverse Words** | Reverses word order |
-| **Copy** | Copies the generated result |
-| **Reset** | Clears the editor |
+| Character Count | Displays the number of characters |
+| Word Count | Displays the number of words |
+| Reverse Letters | Reverses all characters |
+| Reverse Words | Reverses word order |
+| Copy | Copies the displayed result |
+| Reset | Clears the editor |
 
----
+## ⚙️ How It Works
 
-## 📂 Project Structure
-
-```text
-Taha-persian-text-editor/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── fonts/
-│   └── Lalezar-Regular.ttf
-│
-├── svg/
-│   ├── github.svg
-│   ├── instagram.svg
-│   └── user-circle.svg
-│
-└── README.md
-````
-
----
-
-## 🚀 Getting Started
-
-No build tools, package manager, backend, or database are required.
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/Tahamozafari1234/Taha-persian-text-editor.git
-```
-
-### 2. Open the project
-
-Enter the project directory:
-
-```bash
-cd Taha-persian-text-editor
-```
-
-Then open:
-
-```text
-index.html
-```
-
-in your preferred modern browser.
-
-That's it.
-
----
-
-## 🌐 Live Demo
-
-Try the project directly in your browser:
-
-**[https://mozafari.runflare.run](https://mozafari.runflare.run)**
-
----
-
-## 💻 How It Works
-
-The application processes the entered text directly in the browser.
-
-There is no server-side processing involved.
-
-The JavaScript layer handles the core functionality:
+All processing happens client-side in the browser:
 
 ```text
 User Input
     ↓
-JavaScript Processing
+JavaScript Function
     ↓
 Text Operation
     ↓
 Result Display
 ```
 
-This makes the application lightweight and suitable for quick text operations.
+There is no server-side text-processing layer in the project.
 
----
+## 📂 Project Structure
 
-## 🔐 Privacy
+```text
+Taha-persian-text-editor/
+├── index.html
+├── style.css
+├── script.js
+├── fonts/
+│   └── Lalezar-Regular.ttf
+├── svg/
+│   ├── github.svg
+│   ├── instagram.svg
+│   └── user-circle.svg
+└── README.md
+```
 
-The project is designed to operate entirely on the client side.
+## 🚀 Run Locally
 
-Text entered into the editor is processed by JavaScript in the browser and does not require a backend service.
+No installation, package manager or build step is required.
 
----
+```bash
+git clone https://github.com/Tahamozafari1234/Taha-persian-text-editor.git
+cd Taha-persian-text-editor
+```
 
-## 📱 Responsive Design
+Then open `index.html` in a modern browser.
 
-The interface includes responsive CSS rules to provide a usable experience across different screen sizes, including smaller mobile displays.
+## 🌐 Live Demo
 
----
+The existing project README currently points to:
+
+**https://mozafari.runflare.run**
+
+> The repository's source documentation is treated as the reference for the current demo address.
 
 ## 🇮🇷 Persian & RTL Support
 
-The project is specifically designed for Persian text and uses a right-to-left document layout.
+The HTML document is configured with an RTL direction and the interface is written for Persian text.
 
-```html
-<html lang="en" dir="rtl">
-```
+The project also bundles the **Lalezar** font locally for its interface typography.
 
-A dedicated Persian-friendly font is also included in the project.
+## 📱 Responsive Design
 
----
+The stylesheet includes responsive breakpoints for smaller viewport widths, including mobile-sized displays.
 
-## 📸 Project Preview
+## 🔐 Client-Side Processing
 
-> Add a screenshot or GIF of the application here.
+The text operations implemented by `script.js` run in the browser. The repository contains no backend or database layer for the editor.
 
-```text
-[ Project Screenshot ]
-```
+## 🎯 Project Purpose
 
----
+This project is a practical front-end exercise focused on:
+
+- DOM manipulation
+- JavaScript functions
+- Event-driven UI interactions
+- String and text processing
+- Clipboard interaction
+- RTL web interfaces
+- Responsive CSS
+- Persian web typography
 
 ## 📌 Project Status
 
-**Active Development**
+**Active personal project.**
 
-This project may be improved over time with additional text-processing utilities, UI refinements, accessibility improvements, and other Front-End enhancements.
-
----
+The current implementation focuses on a compact set of Persian text utilities and can be extended with additional operations in future versions.
 
 ## 🔮 Possible Future Improvements
 
-Potential improvements for future versions include:
+Potential additions could include:
 
-* More Persian text-processing tools
-* Character count with and without spaces
-* Reading-time calculation
-* Text formatting utilities
-* Case and punctuation tools
-* Improved accessibility
-* More advanced clipboard interactions
-* Additional responsive UI improvements
+- Character count with separate whitespace handling
+- Reading-time estimation
+- Additional Persian text utilities
+- Formatting and punctuation tools
+- More detailed output modes
+- Accessibility refinements
+- Additional responsive UI improvements
 
----
+These are future ideas, not current features.
 
 ## 👨‍💻 Author
 
 ### Taha Mozafari
 
-Web Developer • Front-End Developer • Programmer
+**Web Developer • Front-End Developer • Programmer**
 
-🌐 **Website**
-[https://mozafari.runflare.run](https://mozafari.runflare.run)
-
-🐙 **GitHub**
-[https://github.com/Tahamozafari1234](https://github.com/Tahamozafari1234)
-
-💻 **Quera**
-[https://quera.org/profile/Taha.mz](https://quera.org/profile/Taha.mz)
-
----
+- 🌐 Website: https://mozafari.runflare.run
+- 🐙 GitHub: https://github.com/Tahamozafari1234
+- 💻 Quera: https://quera.org/profile/Taha.mz
 
 ## ⭐ Support
 
-If you find this project useful or interesting, consider giving the repository a ⭐.
-
-Your feedback and suggestions are always welcome.
+If you find the project useful, consider giving the repository a ⭐ on GitHub.
 
 ---
 
-<div align="center">
-
-**Built with HTML, CSS & JavaScript ❤️**
-
-© Taha Mozafari
-
-
-
-
-</div>
+<p align="center">
+  Built with HTML, CSS & JavaScript.
+</p>
