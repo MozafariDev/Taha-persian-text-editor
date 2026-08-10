@@ -5,7 +5,6 @@
 </p>
 
 <p align="center">
-  <a href="https://mozafari.runflare.run">🌐 Live Demo</a> •
   <a href="https://github.com/Tahamozafari1234">🐙 GitHub</a> •
   <a href="https://quera.org/profile/Taha.mz">💻 Quera</a>
 </p>
@@ -94,14 +93,6 @@ cd Taha-persian-text-editor
 ```
 
 Then open `index.html` in a modern browser.
-
-## 🌐 Live Demo
-
-The existing project README currently points to:
-
-**https://mozafari.runflare.run**
-
-> The repository's source documentation is treated as the reference for the current demo address.
 
 ## 🇮🇷 Persian & RTL Support
 
