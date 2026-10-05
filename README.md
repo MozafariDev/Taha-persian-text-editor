@@ -147,8 +147,8 @@ These are future ideas, not current features.
 
 **Web Developer • Front-End Developer • Programmer**
 
-- 🌐 Website: https://mozafari.runflare.run
-- 🐙 GitHub: https://github.com/Tahamozafari1234
+- 🌐 Website: https://mozafaridev.github.io
+- 🐙 GitHub: https://github.com/MozafariDev
 - 💻 Quera: https://quera.org/profile/Taha.mz
 
 ## ⭐ Support
