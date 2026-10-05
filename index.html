@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fa" dir="rtl">
+<html class="html" lang="en" dir="rtl">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,58 +12,53 @@
       content="Taha, Mozafari, text, text editor, طاها مظفری, ابزار ویرایش متن"
     />
     <meta name="description" content="ابزار ویرایش متن حرفه ای طاها مظفری." />
+    <meta name="theme-color" content="#764ba2" />
   </head>
-  <body>
-    <div class="continer">
-      <header><h1>ابزار ویرایش متن طاها</h1></header>
+  <body class="body">
+    <div class="container div">
+      <button id="darkModeToggle">🌙دارک مود</button>
+      <header class="header"><h1>ابزار ویرایش متن طاها</h1></header>
       <main>
         <textarea name="" id="input" placeholder="چیزی بنویس......"></textarea>
+        <section class="option-buttons">
+          <button class="option-btn" onclick="reset()">ریست</button>
+          <button class="option-btn" onclick="letters()">تعداد حروف</button>
+          <button class="option-btn" onclick="words()">تعداد کلمات</button>
+          <button class="option-btn" onclick="ReverseLetter()">
+            برعکس کردن حروف
+          </button>
+          <button class="option-btn" onclick="ReverseWord()">
+            برعکس کردن کلمات
+          </button>
+          <button class="option-btn" onclick="copy()">کپی</button>
+        </section>
+        <section>
+          <div class="output div">
+            <h3>نتیجه:</h3>
+            <h3 id="outtext"></h3>
+          </div>
+        </section>
       </main>
-      <aside>
-        <button class="option-btn" onclick="reset()">ریست</button>
-        <button class="option-btn" onclick="letters()">تعداد حروف</button>
-        <button class="option-btn" onclick="words()">تعداد کلمات</button>
-        <button class="option-btn" onclick="ReverseLetter()">
-          برعکس کردن حروف
-        </button>
-        <button class="option-btn" onclick="ReverseWord()">
-          برعکس کردن کلمات
-        </button>
-        <button class="option-btn" onclick="copy()">کپی</button>
-      </aside>
-      <div class="output">
-        <h3 id="outtext"></h3>
-      </div>
-      <hr />
-      <footer>
-        <div class="footer-main">
+      <hr class="hr" />
+      <footer class="footer-main div">
+        <div class="footer-links div">
           <p>
             &copy; <span id="footer-year">1405 </span>تمامی حقوق مادی و معنوی
             این سایت متعلق به طاها مظفری است.
           </p>
-          <div class="footer-images">
-            <a href="https://instagram.com/taha.mz_dev" target="_blank" rel="noopener noreferrer">
-              <img
-                class="instagram footer-button"
-                src="svg/instagram.svg"
-                alt="Instagram"
-              />
-            </a>
-            <a href="https://github.com/Tahamozafari1234" target="_blank" rel="noopener noreferrer">
-              <img
-                class="git-hub footer-button"
-                src="svg/github.svg"
-                alt="GitHub"
-              />
-            </a>
-            <a href="https://mozafari.runflare.run/">
-              <img
-                class="footer-button person-website"
-                src="svg/user-circle.svg"
-                alt="Personal website"
-              />
-            </a>
-          </div>
+          <a href="https://instagram.com/taha.mz_dev"
+            ><img
+              class="instagram footer-link"
+              src="svg/instagram.svg"
+              alt="my instagram link."
+          /></a>
+          <a href="https://github.com/Tahamozafari1234"
+            ><img
+              class="git-hub footer-link"
+              src="svg/github.svg"
+              alt="my GitHub link."
+            />
+          </a>
         </div>
       </footer>
     </div>
