@@ -112,4 +112,3 @@ This is a learning project. It works as intended, but contains a few known issue
 <p align="center">
   ⭐ Thanks for checking out this project.
 </p>
-```
