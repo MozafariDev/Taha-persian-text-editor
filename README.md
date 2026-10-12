@@ -44,7 +44,10 @@ Taha-persian-text-editor/
 ```
 
 ---
+## 🚀 open it now
 
+1. open https://mozafari-text-editor.vercel.app in a modern browser.
+---
 ## 🚀 How to Use
 
 1. Open `index.html` in a modern browser.
@@ -100,7 +103,7 @@ Dark mode is handled with `localStorage` and a class toggle on the body.
 
 - **Instagram:** https://instagram.com/taha.mz_dev
 - **GitHub:** https://github.com/MozafariDev
-
+- **Website:** https://mozafari.vercel.app
 ---
 
 ## 📌 Project Status
